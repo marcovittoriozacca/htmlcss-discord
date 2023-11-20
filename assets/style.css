@@ -122,6 +122,13 @@ section.rows div.flexed{
 section.rows div.text-area{
     max-width: 25%;
 }
+section.rows:first-child div.text-area{
+    padding-top:2em;
+}
+
+section.rows:nth-child(3) div.text-area{
+    padding-top:4em;
+}
 
 /* section.rows div.container figure{
     max-width: 75%;
