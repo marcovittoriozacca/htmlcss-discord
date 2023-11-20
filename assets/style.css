@@ -95,7 +95,7 @@ header div#cta div.cta-buttons button{
     font-weight: bold;
 }
 header div#cta div.cta-buttons button:first-child::before,
-.purple-b::before{
+section div.container button.purple-b::before{
     content:"\2193";
     padding-right:0.5em;
 
@@ -190,3 +190,66 @@ button.purple-b{
     font-weight: bold;
 }
 
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5em;
+}
+
+footer{
+    background-color: #191d1f;
+}
+footer ul{
+    padding-top: 5em;
+    flex-grow: 1;
+}
+footer ul:first-child{
+    flex-grow: 2;
+}
+
+footer ul li{
+    list-style-type: none;
+    line-height: 1.8em;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+footer ul li:first-child{
+    color: #8FA1E1;
+    font-weight: bold;
+}
+
+footer ul:first-child li h4{
+    font-size: 1.7em;
+}
+
+footer ul:first-child li:last-child{
+    display: flex;
+    gap:1em
+}
+
+footer ul:first-child figure img{
+    width: 1.3em;
+}
+
+footer ul:first-child li:nth-child(2){
+    display: flex;
+    align-items: center;
+    gap:5px;
+    padding-block: 1em;
+}
+
+footer ul li.flag span{
+    color: white;
+}
+
+hr.container{
+    border: 0.5px solid #8FA1E1;
+    margin-block: 2em;
+}
+footer section.container{
+    padding-bottom:3em;
+}
