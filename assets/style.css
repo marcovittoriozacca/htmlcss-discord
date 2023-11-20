@@ -12,10 +12,12 @@ html{
 }
 
 .container{
-    width: 70%;
+    width: 65%;
     margin: 0 auto;
 }
 
+/* header elements */
+/* navbar */
 header nav{
     background-color: #265EE9;
 }
@@ -52,15 +54,16 @@ header nav a.login-button{
     border: 1px solid #0048DD;
 }
 
+/* cta - banner */
 header div#cta{
     background-image: url(./img/jumbo.png);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
 
 
 header div#cta div.container{
-    max-width: 40%;
+    width: 40%;
     margin: 0 auto;
     text-align: center;
     padding-block: 5em;
@@ -98,3 +101,46 @@ header div#cta div.cta-buttons button:last-child{
     background-color: black;
     color: white;
 }
+
+/* main sections */
+
+/* img reset */
+img{
+    display: block;
+}
+
+section.rows div.flexed{
+    display: flex;
+    justify-content:space-between;
+    padding-block: 5em;
+}
+section.rows div.text-area{
+    max-width: 25%;
+}
+
+section.rows figure{
+    max-width: 75%;
+}
+
+
+section.rows div.text-area h3{
+    font-size: 2.5em;
+}
+section.rows div.text-area p{
+    line-height: 1.5em;
+    padding-block: 1em;
+}
+
+main section.rows:nth-child(even){
+    background-color: rgb(221, 221, 221);
+}
+
+main section.rows:nth-child(even) figure{
+    order:1;
+}
+
+/* wave svg rotator */
+section.rows .wave{
+    rotate: 180deg;
+}
+
