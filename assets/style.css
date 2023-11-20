@@ -184,7 +184,7 @@ button.purple-b{
     background-color: #8FA1E1;
     color: white;
     text-decoration: none;
-    padding: 0.8em 2.3em;
+    padding: 1em 2.3em;
     border-radius: 50px;
     border: 1px solid #0048DD;
     font-weight: bold;
@@ -252,4 +252,7 @@ hr.container{
 }
 footer section.container{
     padding-bottom:3em;
+}
+button:hover{
+    cursor: pointer;
 }
